@@ -11,27 +11,14 @@
 This is a web based wishlist application using modern web frameworks. This will require the development of a Representational state transfer (REST) Application Programming Interface (API), a constant integration, constant development (CICD) pipeline, and a persistence (Database) layer. The website will be deployed to a Platform as a Service (PaaS) such as Heroku or Google App Engine.
 
 ## Site Map (Minimum Pages)
-# Landing page
--The welcome page where users can login or create an account
-#  List page
-- A page listing all the things the user wants
-- Links, Descriptions, and pictures
-- Note: DO NOT store the picture in the database (that is why we have CDNs) store
-a URL in the DB.
--  Host the image on imgur (or something similar), or just hotlink it… (we would
-NOT hot link a resource in a real environment. That is how you get sued)
-- Unsplash is great source of royalty free images
-# Edit item page
-- Allow the user to change the URL, image, description and priority of the item.
-# Create account page
-- We have all seen these. Ask for a username and password
-- Do not allow duplicate usernames
-- enforce simple password rules (minimum length >=6 characters, alphanumeric
-with at least one special character)
-# Login page
-- Standard username and password page
-# Edit user profile page
-- Allow the user to change their name and password
-- Allow the user to delete their account. Deleting the account should get rid of all
-their database items.
+**Landing page**<img src="https://user-images.githubusercontent.com/10646650/155633673-b3378f67-85d2-482d-a06b-5134b0cc7f83.png" width="400">
 
+**List page**<img src="https://user-images.githubusercontent.com/10646650/155633685-1e7f8c47-fb1d-41a8-87c5-15b1e3b06bbc.png" width="400">
+
+**Edit item page**<img src="https://user-images.githubusercontent.com/10646650/155633697-b5bf0449-dbf5-432e-83b4-8c5c3c3a7096.png" width="400">
+
+**Create account page**<img src="https://user-images.githubusercontent.com/10646650/155633707-c0e734a1-32b8-4d97-86d6-5ff10531f1fb.png" width="400">
+
+**Login page**<img src="https://user-images.githubusercontent.com/10646650/155633735-76bcf935-5cf8-4cf6-bdba-ba79691150d7.png" width="400">
+
+**Edit User Profile page**<img src="https://user-images.githubusercontent.com/10646650/155633749-a05d75ff-51bc-4ce7-9bb8-44bd401e0749.png" width="400">
