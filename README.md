@@ -1,5 +1,4 @@
 # Group5_CST438_Project02
-
 ## Team Members
 
 1. Ignacio Gramajo
@@ -9,6 +8,9 @@
 
 ## App Description
 This is a web based wishlist application using modern web frameworks. This will require the development of a Representational state transfer (REST) Application Programming Interface (API), a constant integration, constant development (CICD) pipeline, and a persistence (Database) layer. The website will be deployed to a Platform as a Service (PaaS) such as Heroku or Google App Engine.
+
+## Entity Relationship Diagram(s)
+![image](https://user-images.githubusercontent.com/10646650/155931572-3fa248c0-cb18-4347-9239-c3106f3c6ebf.png)
 
 ## Site Map (Minimum Pages)
 **Landing page**<img src="https://user-images.githubusercontent.com/10646650/155633673-b3378f67-85d2-482d-a06b-5134b0cc7f83.png" width="400">
