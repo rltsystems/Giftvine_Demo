@@ -15,6 +15,8 @@ This is a web based wishlist application using modern web frameworks. This will 
 ## Site Map (Minimum Pages)
 **Landing page**<img src="https://user-images.githubusercontent.com/10646650/155633673-b3378f67-85d2-482d-a06b-5134b0cc7f83.png" width="400">
 
+**Profile Page**<img src="https://user-images.githubusercontent.com/10646650/155939555-9b9a48dd-3309-45b6-a8f4-27303348edde.png" width="400">
+
 **List page**<img src="https://user-images.githubusercontent.com/10646650/155633685-1e7f8c47-fb1d-41a8-87c5-15b1e3b06bbc.png" width="400">
 
 **Edit item page**<img src="https://user-images.githubusercontent.com/10646650/155633697-b5bf0449-dbf5-432e-83b4-8c5c3c3a7096.png" width="400">
