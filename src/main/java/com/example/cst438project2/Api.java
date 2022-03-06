@@ -34,4 +34,14 @@ public class Api {
     List<User> findUserByUsername(@RequestParam (defaultValue = "test") String username){
         return userRepository.findUserByUsername(username);
     }
+
+    @DeleteMapping(path="/deleteUser")
+    public @ResponseBody String deleteUser(@RequestParam String username){
+        User user = new User();
+        user = findUserByUsername(username).get(0);
+
+        userRepository.delete(user);
+        return "Deleted";
+    }
+
 }
