@@ -8,7 +8,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping(path="/api")
-public class Api {
+public class UserApi {
 
     @Autowired
     private UserRepository userRepository;
