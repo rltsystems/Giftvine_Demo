@@ -38,4 +38,9 @@ public class ItemApi {
         return "saved";
     }
 
+    @DeleteMapping(path="/deleteItem") //maybe replace deleteUser with this structure?
+    public @ResponseBody String deleteUser(@RequestParam Integer itemId){
+        itemRepository.deleteById(itemId);
+        return "Deleted";
+    }
 }
