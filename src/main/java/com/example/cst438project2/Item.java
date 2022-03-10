@@ -19,7 +19,7 @@ public class Item {
         this.itemName = itemName;
         this.description = description;
     }
-    
+
     public Item(){
         this.itemName = "";
         this.description = "";

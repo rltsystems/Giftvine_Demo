@@ -30,6 +30,13 @@ public class User {
         Wishlist = new ArrayList<Wishlist>();
     }
 
+    public List<Wishlist> getWishlist() {
+        return Wishlist;
+    }
+
+    public void setWishlist(List<Wishlist> wishlist) {
+        Wishlist = wishlist;
+    }
 
     public Integer getId() {
         return Id;

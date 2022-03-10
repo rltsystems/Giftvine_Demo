@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -17,6 +18,16 @@ public class Wishlist {
 
     @OneToMany
     private List<Item> items;
+
+    public Wishlist(String listname){
+        this.listName = listname;
+        items = new ArrayList<Item>();
+    }
+
+    public Wishlist(){
+        this.listName = "";
+        items = new ArrayList<Item>();
+    }
 
     public Integer getWishlistId() {
         return wishlistId;
