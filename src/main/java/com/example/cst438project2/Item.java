@@ -13,9 +13,11 @@ public class Item {
     private Integer itemId;
 
     private String itemName;
+    private String itemUrl;
+    private int priority;
     private String description;
 
-    public Item(String itemName, String description){
+    public Item(String itemName, String itemUrl, int priority, String description){
         this.itemName = itemName;
         this.description = description;
     }

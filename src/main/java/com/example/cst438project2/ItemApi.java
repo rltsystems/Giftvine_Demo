@@ -15,7 +15,7 @@ public class ItemApi {
     private WishlistRepository wishlistRepository;
 
     //displays all items
-    @GetMapping(path="/allItems") //Just a test call, i dont think we need it for final
+    @GetMapping(path="/allItems") //Just a test call, I don't think we need it for final
     public Iterable<Item> getAllItems(){
         return itemRepository.findAll();
     }
@@ -26,18 +26,28 @@ public class ItemApi {
         return itemRepository.findById(id);
     }
 
-    //adds only one item
+    // for debugging, adds only one item to repository
     @PostMapping(path="/addItem")
-    public String addItem(@RequestParam String itemName, @RequestParam String description){
-        Item item = new Item(itemName, description);
+    public String addItem(@RequestParam String itemName, @RequestParam String itemUrl,
+                          @RequestParam int priority, @RequestParam String description){
+        Item item = new Item(itemName, itemUrl, priority, description);
         itemRepository.save(item);
         return "saved";
     }
 
+    @PostMapping(path="/editItem")
+    public String editItem(@RequestParam String itemName, @RequestParam String itemUrl,
+                           @RequestParam int priority, @RequestParam String description){
+        Item item = new Item(itemName, itemUrl, priority, description);
+        itemRepository.save(item);
+        return "saved";
+    }
+
+
     @PutMapping(path="/addToList")
-    public String addItemToList(@RequestParam int listId, @RequestParam String itemName,
-                                @RequestParam String description){
-        Item item = new Item(itemName, description);
+    public String addItemToList(@RequestParam int listId, @RequestParam String itemName, @RequestParam String itemUrl,
+                                @RequestParam int priority, @RequestParam String description){
+        Item item = new Item(itemName, itemUrl, priority, description);
         itemRepository.save(item);
 
         // retrieve wishlist by id
