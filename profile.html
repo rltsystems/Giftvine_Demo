@@ -155,6 +155,16 @@ Coded by www.creative-tim.com
     </div>
   </nav>
   <!-- End Navbar -->
+  <script type="text/javascript">
+    var apiUrl = '';
+    fetch(apiUrl).then(response => {
+      return response.json();
+    }).then(data => {
+      console.log(data);
+    }).catch(err => {
+      // Do something for an error here
+    });
+  </script>
   <div class="wrapper">
     <section class="section-profile-cover section-shaped my-0">
       <!-- Circles background -->
@@ -176,28 +186,6 @@ Coded by www.creative-tim.com
                   <a href="javascript:;">
                     <img src="../assets/img/faces/team-4.jpg" class="rounded-circle">
                   </a>
-                </div>
-              </div>
-              <div class="col-lg-4 order-lg-3 text-lg-right align-self-lg-center">
-                <div class="card-profile-actions py-4 mt-lg-0">
-                  <a href="#" class="btn btn-sm btn-info mr-4">Connect</a>
-                  <a href="#" class="btn btn-sm btn-default float-right">Message</a>
-                </div>
-              </div>
-              <div class="col-lg-4 order-lg-1">
-                <div class="card-profile-stats d-flex justify-content-center">
-                  <div>
-                    <span class="heading">22</span>
-                    <span class="description">Friends</span>
-                  </div>
-                  <div>
-                    <span class="heading">10</span>
-                    <span class="description">Photos</span>
-                  </div>
-                  <div>
-                    <span class="heading">89</span>
-                    <span class="description">Comments</span>
-                  </div>
                 </div>
               </div>
             </div>
