@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@Controller
+@RestController
 @RequestMapping(path="/api")
 public class UserApi {
 
@@ -14,30 +14,28 @@ public class UserApi {
     private UserRepository userRepository;
 
     @GetMapping(path="/allUsers")
-    public @ResponseBody Iterable<User> getAllUsers(){
+    public Iterable<User> getAllUsers(){
         return userRepository.findAll();
     }
 
     @PostMapping(path="/addUser")
-    public @ResponseBody String addUser(@RequestParam String username, @RequestParam String password) {
-        User user = new User();
-        user.setUsername(username);
-        user.setPassword(password);
-
+    public String addUser(@RequestParam String username, @RequestParam String password) {
+        User user = new User(username, password);
         userRepository.save(user);
-
         return "saved";
     }
 
     @GetMapping(path="/findUserByUsername")
-    public @ResponseBody
-    List<User> findUserByUsername(@RequestParam (defaultValue = "test") String username){
+    public List<User> findUserByUsername(@RequestParam (defaultValue = "test") String username){
         return userRepository.findUserByUsername(username);
     }
 
     @DeleteMapping(path="/deleteUser")
-    public @ResponseBody String deleteUser(@RequestParam Integer userId){
-        userRepository.deleteById(userId);
+    public String deleteUser(@RequestParam String username){
+        User user = new User(username, "");
+        user = findUserByUsername(username).get(0);
+
+        userRepository.delete(user);
         return "Deleted";
     }
 
