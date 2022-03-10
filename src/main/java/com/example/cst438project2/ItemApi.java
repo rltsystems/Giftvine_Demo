@@ -34,6 +34,12 @@ public class ItemApi {
         return "saved";
     }
 
+    @DeleteMapping(path="/deleteItem")
+    public @ResponseBody String deleteUser(@RequestParam Integer itemId){
+        itemRepository.deleteById(itemId);
+        return "Deleted";
+    }
+
     @PutMapping(path="/addToList")
     public String addItemToList(@RequestParam int listId, @RequestParam String itemName,
                                 @RequestParam String description){
