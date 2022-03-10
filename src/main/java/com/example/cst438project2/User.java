@@ -1,9 +1,8 @@
 package com.example.cst438project2;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 public class User {
@@ -14,6 +13,23 @@ public class User {
 
     private String username;
     private String password;
+
+    @OneToMany
+    private List<Wishlist> Wishlist;
+
+    public User(String username, String password){
+        this.username = username;
+        this.password = password;
+        Wishlist = new ArrayList<Wishlist>();
+    }
+
+    // IDE really wanted this? A no-arg constructor
+    public User(){
+        this.username = "";
+        this.password = "";
+        Wishlist = new ArrayList<Wishlist>();
+    }
+
 
     public Integer getId() {
         return Id;

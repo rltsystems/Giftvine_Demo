@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@Controller
+@RestController
 @RequestMapping(path="/api")
 public class UserApi {
 
@@ -20,12 +20,8 @@ public class UserApi {
 
     @PostMapping(path="/addUser")
     public @ResponseBody String addUser(@RequestParam String username, @RequestParam String password) {
-        User user = new User();
-        user.setUsername(username);
-        user.setPassword(password);
-
+        User user = new User(username, password);
         userRepository.save(user);
-
         return "saved";
     }
 
@@ -37,7 +33,7 @@ public class UserApi {
 
     @DeleteMapping(path="/deleteUser")
     public @ResponseBody String deleteUser(@RequestParam String username){
-        User user = new User();
+        User user = new User(username, "");
         user = findUserByUsername(username).get(0);
 
         userRepository.delete(user);
