@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="" />
+    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,10 +51,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ryanl\IdeaProjects\Group5_CST438_Project02" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Group5_CST438_Proj2" />
       <recent name="C:\Users\ryanl\IdeaProjects\Group5_CST438_Project02" />
     </key>
   </component>
@@ -94,7 +100,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Argon Template files and assets (css and js etc.)" />
     <MESSAGE value="Updated landing page example, to reflect giftvine app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated landing page example, to reflect giftvine app" />
+    <MESSAGE value="Fixed layouts for index (landing Page), login and register pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed layouts for index (landing Page), login and register pages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="629" y="287" key="Vcs.Push.Dialog.v2" timestamp="1646353451149">
