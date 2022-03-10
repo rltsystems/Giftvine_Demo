@@ -36,11 +36,8 @@ public class UserApi {
     }
 
     @DeleteMapping(path="/deleteUser")
-    public @ResponseBody String deleteUser(@RequestParam String username){
-        User user = new User();
-        user = findUserByUsername(username).get(0);
-
-        userRepository.delete(user);
+    public @ResponseBody String deleteUser(@RequestParam Integer userId){
+        userRepository.deleteById(userId);
         return "Deleted";
     }
 
