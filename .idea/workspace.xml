@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,339 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/.github/workflows/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Group5_CST438_Project02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/.idea/Group5_CST438_Project02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/argon-design-system.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/css/argon-design-system.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/argon-design-system.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/css/argon-design-system.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/argon-design-system.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/css/argon-design-system.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/nucleo-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/css/nucleo-icons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/nucleo-svg.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/css/nucleo-svg.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/demo/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/demo/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/demo/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/demo/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/nucleo-icons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/fonts/nucleo-icons.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/nucleo-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/fonts/nucleo-icons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/nucleo-icons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/fonts/nucleo-icons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/nucleo-icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/fonts/nucleo-icons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/nucleo-icons.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/fonts/nucleo-icons.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/apple-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/apple-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/brand/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/brand/blue.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/brand/creativetim-black-slim.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/brand/creativetim-black-slim.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/brand/creativetim-white-slim.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/brand/creativetim-white-slim.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/brand/white.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/brand/white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/docs/computer-docs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/docs/computer-docs.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/alejandro-escamilla.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/faces/alejandro-escamilla.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/ali-pazani.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/faces/ali-pazani.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/atikh.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/faces/atikh.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/brooke-cagle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/faces/brooke-cagle.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/christian.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/faces/christian.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/fezbot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/faces/fezbot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/michael.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/faces/michael.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/team-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/faces/team-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/team-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/faces/team-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/team-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/faces/team-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/team-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/faces/team-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/team-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/faces/team-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/github.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/google.svg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/google.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/common/github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/common/github.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/common/google.svg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/common/google.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/AD.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/AD.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/AE.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/AE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/AG.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/AG.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/AM.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/AM.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/AR.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/AR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/AT.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/AT.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/AU.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/AU.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/BE.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/BE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/BF.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/BF.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/BG.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/BG.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/BO.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/BO.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/BR.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/BR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/CA.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/CA.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/CD.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/CD.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/CG.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/CG.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/CH.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/CH.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/CL.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/CL.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/CM.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/CM.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/CN.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/CN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/CO.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/CO.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/CZ.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/CZ.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/DE.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/DE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/DJ.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/DJ.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/DK.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/DK.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/DZ.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/DZ.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/EE.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/EE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/EG.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/EG.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/ES.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/ES.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/FI.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/FI.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/FR.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/FR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/GA.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/GA.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/GB.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/GB.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/GM.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/GM.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/GT.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/GT.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/HN.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/HN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/HT.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/HT.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/HU.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/HU.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/ID.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/ID.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/IE.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/IE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/IL.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/IL.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/IN.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/IN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/IQ.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/IQ.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/IR.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/IR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/IT.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/IT.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/JM.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/JM.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/JO.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/JO.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/JP.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/JP.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/KG.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/KG.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/KN.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/KN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/KP.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/KP.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/KR.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/KR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/KW.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/KW.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/KZ.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/KZ.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/LA.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/LA.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/LB.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/LB.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/LC.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/LC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/LS.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/LS.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/LU.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/LU.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/LV.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/LV.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/MG.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/MG.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/MK.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/MK.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/ML.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/ML.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/MM.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/MM.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/MT.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/MT.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/MX.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/MX.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/NA.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/NA.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/NE.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/NE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/NG.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/NG.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/NI.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/NI.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/NL.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/NL.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/NO.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/NO.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/OM.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/OM.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/PA.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/PA.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/PE.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/PE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/PG.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/PG.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/PK.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/PK.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/PL.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/PL.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/PT.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/PT.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/PY.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/PY.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/QA.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/QA.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/RO.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/RO.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/RU.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/RU.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/RW.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/RW.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/SA.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/SA.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/SE.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/SE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/SG.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/SG.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/SL.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/SL.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/SN.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/SN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/SO.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/SO.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/SV.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/SV.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/TD.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/TD.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/TJ.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/TJ.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/TL.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/TL.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/TR.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/TR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/TZ.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/TZ.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/UA.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/UA.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/US.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/US.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/VE.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/VE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/VN.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/VN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/icons/flags/YE.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/icons/flags/YE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/ill/1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/ill/1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/ill/ill.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/ill/ill.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/nucleo-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/nucleo-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/pages/mohamed.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/pages/mohamed.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/theme/img-1-1200x1000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/theme/img-1-1200x1000.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/theme/img-2-1200x1000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/theme/img-2-1200x1000.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/theme/landing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/theme/landing.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/theme/profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/img/theme/profile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/argon-design-system.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/js/argon-design-system.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/argon-design-system.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/js/argon-design-system.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/argon-design-system.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/js/argon-design-system.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/core/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/js/core/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/core/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/js/core/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/core/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/js/core/popper.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/plugins/bootstrap-datepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/js/plugins/bootstrap-datepicker.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/plugins/bootstrap-switch.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/js/plugins/bootstrap-switch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/plugins/chartjs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/js/plugins/chartjs.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/plugins/datetimepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/js/plugins/datetimepicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/plugins/jquery.sharrre.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/js/plugins/jquery.sharrre.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/plugins/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/js/plugins/moment.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/plugins/nouislider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/js/plugins/nouislider.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/plugins/perfect-scrollbar.jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/js/plugins/perfect-scrollbar.jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/accordion.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/accordion.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/alert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/avatar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/avatar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/badge.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/close.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/custom-forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/custom-forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/docs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/docs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/docs/clipboard-js.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/docs/clipboard-js.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/docs/component-examples.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/docs/component-examples.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/docs/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/docs/content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/docs/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/docs/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/docs/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/docs/nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/docs/prism.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/docs/prism.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/docs/sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/docs/sidebar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/docs/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/docs/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/input-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/kit-free.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/kit-free.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/mixins/alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/mixins/alert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/mixins/background-variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/mixins/background-variant.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/mixins/badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/mixins/badge.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/mixins/buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/mixins/buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/mixins/forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/mixins/forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/mixins/icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/mixins/icon.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/mixins/modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/mixins/modals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/mixins/popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/mixins/popover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/popover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/progress.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/reboot.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/separator.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/separator.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/type.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/utilities/backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/utilities/backgrounds.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/utilities/floating.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/utilities/floating.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/utilities/helper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/utilities/helper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/utilities/position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/utilities/position.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/utilities/shadows.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/utilities/shadows.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/utilities/sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/utilities/sizing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/utilities/spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/utilities/spacing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/utilities/text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/utilities/text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/utilities/transform.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/utilities/transform.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/vendor/_bootstrap-datepicker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/vendor/_bootstrap-datepicker.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/vendor/datetimepicker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/vendor/datetimepicker.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/vendor/headroom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/vendor/headroom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/vendor/nouislider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/vendor/nouislider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/vendor/scrollbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/vendor/scrollbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/argon-design-system/vendors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/argon-design-system/vendors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_alert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_badge.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_breadcrumb.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_button-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_button-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_close.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_code.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_code.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_custom-forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_custom-forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_images.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_input-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_jumbotron.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_popover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_print.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_progress.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_reboot.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_root.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_spinners.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_spinners.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_toasts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_toasts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_tooltip.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_transitions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_type.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/bootstrap-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/bootstrap-grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/bootstrap-reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/bootstrap-reboot.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/bootstrap.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_alert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_background-variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_background-variant.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_badge.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_border-radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_border-radius.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_box-shadow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_caret.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_clearfix.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_deprecate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_deprecate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_float.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_gradients.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_grid-framework.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_hover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_hover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_image.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_lists.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_lists.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_nav-divider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_reset-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_reset-text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_resize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_resize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_size.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_size.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_table-row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_table-row.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_text-hide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_text-hide.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_text-truncate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_transition.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/mixins/_visibility.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_align.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/utilities/_align.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_background.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/utilities/_background.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_borders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/utilities/_borders.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/utilities/_clearfix.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_display.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/utilities/_display.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_embed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/utilities/_embed.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/utilities/_flex.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/utilities/_float.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_overflow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/utilities/_overflow.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/utilities/_position.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_screenreaders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_shadows.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/utilities/_shadows.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/utilities/_sizing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/utilities/_spacing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_stretched-link.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/utilities/_stretched-link.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/utilities/_text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/utilities/_visibility.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/vendor/_rfs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/assets/scss/bootstrap/vendor/_rfs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/docs/documentation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/examples/landing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/examples/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/examples/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-assets/examples/register.html" afterDir="false" />
+    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="Updated landing page example, to reflect giftvine app">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/WishlistAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/WishlistAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,18 +41,71 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="25tfw0bq7SC1v8NfhrJJ1V5cPuX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ryanl\IdeaProjects\Group5_CST438_Project02" />
     </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Cst438Project2Application">
+    <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Cst438Project2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Cst438Project2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cst438project2.Cst438Project2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.All in generated-requests" />
+        <item itemvalue="HTTP Request.generated-requests | #3" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -387,6 +115,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646351537255</updated>
+      <workItem from="1646956676175" duration="1870000" />
+      <workItem from="1647386929398" duration="702000" />
     </task>
     <task id="LOCAL-00001" summary="Added Argon Template files and assets (css and js etc.)">
       <created>1646351654021</created>
@@ -405,6 +135,9 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -415,17 +148,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Argon Template files and assets (css and js etc.)" />
     <MESSAGE value="Updated landing page example, to reflect giftvine app" />
     <option name="LAST_COMMIT_MESSAGE" value="Updated landing page example, to reflect giftvine app" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="629" y="287" key="Vcs.Push.Dialog.v2" timestamp="1646353451149">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="629" y="287" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1646353451149" />
   </component>
 </project>
