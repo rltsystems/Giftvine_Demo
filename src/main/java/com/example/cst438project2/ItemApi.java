@@ -6,6 +6,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
 
+/**
+ * A rest controller for functions related to the Item class
+ */
+
 @RestController
 @RequestMapping(path="/api")
 public class ItemApi {
@@ -35,11 +39,13 @@ public class ItemApi {
         return "saved";
     }
 
+    // TODO: finish this. determine if default values are a good idea?
     @PostMapping(path="/editItem")
-    public String editItem(@RequestParam String itemName, @RequestParam String itemUrl,
+    public String editItem(@RequestParam int itemId, @RequestParam String itemName, @RequestParam String itemUrl,
                            @RequestParam int priority, @RequestParam String description){
-        Item item = new Item(itemName, itemUrl, priority, description);
-        itemRepository.save(item);
+
+        //Item item = new Item(itemName, itemUrl, priority, description);
+        //itemRepository.save(item);
         return "saved";
     }
 

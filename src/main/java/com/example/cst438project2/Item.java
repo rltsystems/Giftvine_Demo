@@ -1,9 +1,14 @@
 package com.example.cst438project2;
 
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+
+/**
+ * A class to represent an item on the wishlist. It is stored in the ItemRespository.
+ */
 
 @Entity
 public class Item {

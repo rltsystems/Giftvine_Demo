@@ -2,6 +2,10 @@ package com.example.cst438project2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * Rest API for functionality relating to the Wishlist object such as adding, removing, and editing objects
+ */
+
 @RestController
 @RequestMapping(path="/api")
 public class WishlistApi {
