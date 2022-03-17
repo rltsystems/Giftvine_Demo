@@ -12,6 +12,8 @@ public class ItemApi {
 
     @Autowired
     private ItemRepository itemRepository;
+
+    @Autowired
     private WishlistRepository wishlistRepository;
 
     //displays all items
@@ -45,13 +47,14 @@ public class ItemApi {
                                 @RequestParam String description){
         Item item = new Item(itemName, description);
         itemRepository.save(item);
-
-        // retrieve wishlist by id
-        Wishlist wishList = wishlistRepository.findById(listId).get();
-
+        Wishlist wishList = new Wishlist();
+        // retrieve wishlist by id, check to make sure list exists first
+        if(wishlistRepository.findById(listId).isPresent()) {
+            wishList = wishlistRepository.findById(listId).get();
+        }
         // add item to wishlist
         wishList.getItems().add(item);
-
+        wishlistRepository.save(wishList);
         return "saved";
     }
 }
