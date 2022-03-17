@@ -7,6 +7,10 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * A class to represent the Wishlist, a collection of items, of the wishlist service.
+ */
+
 @Entity
 public class Wishlist {
 

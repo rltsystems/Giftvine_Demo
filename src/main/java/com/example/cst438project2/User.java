@@ -4,6 +4,10 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * A class to represent the User of the wishlist service, including login info and their list of Wishlists
+ */
+
 @Entity
 public class User {
 
