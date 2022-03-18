@@ -24,7 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="Updated landing page example, to reflect giftvine app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/css/argon-design-system.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/argon-design-system.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647574658039</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="--Updated Font Colors for argon-design-system.css for better visibility. Changed H4 and .small from grey to white.">
+      <created>1647575339572</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647575339572</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,16 +173,17 @@
     <MESSAGE value="--Updated Responsive Menu across all pages (index, login, profile, register)&#10;--Updated links to provide fast, direct navigation to different pages&#10;Fixed broken div tags and directories for the javascript files now point to valid locations" />
     <MESSAGE value="--Updated Responsive Menu across all pages (index, login, profile, register, account)&#10;--Created My Account Page as well&#10;--Updated links to provide fast, direct navigation to different pages&#10;Fixed broken div tags and directories for the javascript files now point to valid locations" />
     <MESSAGE value="--Updated Responsive Menu across all pages (index, login, profile, register, account)&#10;--Created My Account Page as well&#10;--Updated links to provide fast, direct navigation to different pages&#10;Fixed broken div tags and directories for the javascript files now point to valid locations&#10;&#10;________________________________________________________&#10;EDIT: 8:37pm 3/17/2022&#10;Fixed spacing issues in all HTML files" />
-    <option name="LAST_COMMIT_MESSAGE" value="--Updated Responsive Menu across all pages (index, login, profile, register, account)&#10;--Created My Account Page as well&#10;--Updated links to provide fast, direct navigation to different pages&#10;Fixed broken div tags and directories for the javascript files now point to valid locations&#10;&#10;________________________________________________________&#10;EDIT: 8:37pm 3/17/2022&#10;Fixed spacing issues in all HTML files" />
+    <MESSAGE value="--Updated Font Colors for argon-design-system.css for better visibility. Changed H4 and .small from grey to white." />
+    <option name="LAST_COMMIT_MESSAGE" value="--Updated Font Colors for argon-design-system.css for better visibility. Changed H4 and .small from grey to white." />
   </component>
   <component name="WindowStateProjectService">
     <state x="525" y="87" key="SettingsEditor" timestamp="1647556954491">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="525" y="87" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1647556954491" />
-    <state x="650" y="301" key="Vcs.Push.Dialog.v2" timestamp="1647574681921">
+    <state x="650" y="301" key="Vcs.Push.Dialog.v2" timestamp="1647575370339">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="650" y="301" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1647574681921" />
+    <state x="650" y="301" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1647575370339" />
   </component>
 </project>
