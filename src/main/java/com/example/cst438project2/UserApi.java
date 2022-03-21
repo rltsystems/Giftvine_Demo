@@ -6,6 +6,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+/**
+ * Rest API for functionality relating to the User object such as logging in and creating or removing accounts
+ */
+
 @RestController
 @RequestMapping(path="/api")
 public class UserApi {
