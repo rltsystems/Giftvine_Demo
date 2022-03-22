@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Rest API for functionality relating to the User object such as logging in and creating or removing accounts
@@ -37,10 +38,26 @@ public class UserApi {
     @DeleteMapping(path="/deleteUser")
     public String deleteUser(@RequestParam String username){
         User user = new User(username, "");
-        user = findUserByUsername(username).get(0);
+        user = findUserByUsername(username).get(0); //maybe add an ispresent check
 
         userRepository.delete(user);
         return "Deleted";
     }
 
+    @PostMapping(path="/login")
+    public String login(@RequestParam String username, @RequestParam String password){
+
+        if(userRepository.findUserByUsername(username).isEmpty()){
+            return "userNull";
+        }
+        else{
+            User user = userRepository.findUserByUsername(username).get(0);
+            if(!Objects.equals(user.getPassword(), password)){ // same as user.getPass != password
+                return "wrongPass";
+            }
+            else{
+                return "loginSuccess";
+            }
+        }
+    }
 }

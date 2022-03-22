@@ -26,7 +26,6 @@ public class ItemApi {
         return itemRepository.findAll();
     }
 
-    //when return type is Optional, you can use isPresent() to make sure it exists
     @GetMapping(path="/items")
     public Optional<Item> findItemById(@RequestParam Integer id){
         return itemRepository.findById(id);
