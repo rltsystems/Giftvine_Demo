@@ -2,6 +2,8 @@ package com.example.cst438project2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Optional;
+
 /**
  * Rest API for functionality relating to the Wishlist object such as adding, removing, and editing objects
  */
@@ -19,6 +21,11 @@ public class WishlistApi {
     @GetMapping(path="/allLists")
     public Iterable<Wishlist> getAllLists(){
         return wishlistRepository.findAll();
+    }
+
+    @GetMapping(path="/list")
+    public Optional<Wishlist> getWishlist(@RequestParam int listId){
+        return wishlistRepository.findById(listId);
     }
 
     @PutMapping(path="/addList")

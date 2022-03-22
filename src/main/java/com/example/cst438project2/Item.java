@@ -19,7 +19,7 @@ public class Item {
 
     private String itemName;
     private String itemUrl;
-    private int priority;
+    private String priority;
     private String description;
 
     public Item(String itemName, String itemUrl, int priority, String description){
@@ -54,5 +54,21 @@ public class Item {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getItemUrl() {
+        return itemUrl;
+    }
+
+    public void setItemUrl(String itemUrl) {
+        this.itemUrl = itemUrl;
+    }
+
+    public String getPriority() {
+        return priority;
+    }
+
+    public void setPriority(String priority) {
+        this.priority = priority;
     }
 }
