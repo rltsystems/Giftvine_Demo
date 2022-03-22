@@ -1,5 +1,6 @@
 package com.example.cst438project2;
 
+import org.aspectj.apache.bcel.classfile.Module;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -24,8 +25,12 @@ public class UserApi {
     }
 
     @PostMapping(path="/addUser")
-    public String addUser(@RequestParam String username, @RequestParam String password) {
+    public String addUser(@RequestParam String username, @RequestParam String password,
+                          @RequestParam (required = false) Boolean isAdmin) {
         User user = new User(username, password);
+        if(isAdmin != null){
+            user.setAdmin(isAdmin);
+        }
         userRepository.save(user);
         return "saved";
     }
@@ -55,9 +60,31 @@ public class UserApi {
             if(!Objects.equals(user.getPassword(), password)){ // same as user.getPass != password
                 return "wrongPass";
             }
+            else if(user.isAdmin()){
+                return "adminLogin";
+            }
             else{
                 return "loginSuccess";
             }
         }
+    }
+
+    @PatchMapping(path="/updateUser")
+    public String updateUser(@RequestParam String originalUsername,
+                             @RequestParam (required = false) String newUsername,
+                             @RequestParam (required = false) String password,
+                             @RequestParam (required = false) Boolean isAdmin){
+        User user = userRepository.findUserByUsername(originalUsername).get(0);
+        if(newUsername != null){
+            user.setUsername(newUsername);
+        }
+        if(password != null){
+            user.setPassword(password);
+        }
+        if(isAdmin != null){
+            user.setAdmin(isAdmin);
+        }
+        userRepository.save(user);
+        return originalUsername + " has been updated";
     }
 }

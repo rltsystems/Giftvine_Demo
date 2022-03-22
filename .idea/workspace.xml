@@ -22,10 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="fixed Item Api call not saving to repository. added check to make sure wishlist exists when pulling wishlist from repository with an id">
+    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="Updated landing page example, to reflect giftvine app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/ItemApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/ItemApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/UserApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -54,13 +52,14 @@
     </option>
   </component>
   <component name="ProjectId" id="25tfw0bq7SC1v8NfhrJJ1V5cPuX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -85,16 +84,13 @@
     <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
       <method v="2" />
     </configuration>
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="#5" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="#6" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="Cst438Project2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -106,11 +102,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests | #6" />
-        <item itemvalue="HTTP Request.generated-requests | #3" />
-        <item itemvalue="HTTP Request.generated-requests | #5" />
-        <item itemvalue="HTTP Request.generated-requests | #4" />
         <item itemvalue="HTTP Request.All in generated-requests" />
+        <item itemvalue="HTTP Request.generated-requests | #3" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -124,8 +119,7 @@
       <updated>1646351537255</updated>
       <workItem from="1646956676175" duration="1870000" />
       <workItem from="1647386929398" duration="1137000" />
-      <workItem from="1647399992423" duration="2217000" />
-      <workItem from="1647557411421" duration="8144000" />
+      <workItem from="1647399992423" duration="1625000" />
     </task>
     <task id="LOCAL-00001" summary="Added Argon Template files and assets (css and js etc.)">
       <created>1646351654021</created>
@@ -148,14 +142,7 @@
       <option name="project" value="LOCAL" />
       <updated>1647387855401</updated>
     </task>
-    <task id="LOCAL-00004" summary="fixed Item Api call not saving to repository. added check to make sure wishlist exists when pulling wishlist from repository with an id">
-      <created>1647503346561</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1647503346562</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,9 +163,6 @@
     <MESSAGE value="Added Argon Template files and assets (css and js etc.)" />
     <MESSAGE value="Updated landing page example, to reflect giftvine app" />
     <MESSAGE value="Wishlist api call to add a list to a user wasnt saving to repository so i fixed that" />
-    <MESSAGE value="fixed Item Api call not saving to repository" />
-    <MESSAGE value="fixed Item Api call not saving to repository." />
-    <MESSAGE value="fixed Item Api call not saving to repository. added check to make sure wishlist exists when pulling wishlist from repository with an id" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed Item Api call not saving to repository. added check to make sure wishlist exists when pulling wishlist from repository with an id" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wishlist api call to add a list to a user wasnt saving to repository so i fixed that" />
   </component>
 </project>
