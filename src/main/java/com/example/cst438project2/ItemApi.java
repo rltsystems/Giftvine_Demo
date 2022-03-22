@@ -33,7 +33,7 @@ public class ItemApi {
     // for debugging, adds only one item to repository
     @PostMapping(path="/addItem")
     public String addItem(@RequestParam String itemName, @RequestParam String itemUrl,
-                          @RequestParam int priority, @RequestParam String description){
+                          @RequestParam String priority, @RequestParam String description){
         Item item = new Item(itemName, itemUrl, priority, description);
         itemRepository.save(item);
         return "saved";
@@ -79,7 +79,7 @@ public class ItemApi {
 
     @PutMapping(path="/addToList")
     public String addItemToList(@RequestParam int listId, @RequestParam String itemName, @RequestParam String itemUrl,
-                                @RequestParam int priority, @RequestParam String description){
+                                @RequestParam String priority, @RequestParam String description){
         Item item = new Item(itemName, itemUrl, priority, description);
         itemRepository.save(item);
 

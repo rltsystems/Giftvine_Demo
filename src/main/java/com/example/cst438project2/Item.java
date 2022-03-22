@@ -22,9 +22,11 @@ public class Item {
     private String priority;
     private String description;
 
-    public Item(String itemName, String itemUrl, int priority, String description){
+    public Item(String itemName, String itemUrl, String priority, String description){
         this.itemName = itemName;
         this.description = description;
+        this.priority = priority;
+        this.itemUrl = itemUrl;
     }
 
     public Item(){
