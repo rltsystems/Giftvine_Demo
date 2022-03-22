@@ -12,6 +12,8 @@ public class WishlistApi {
 
     @Autowired
     WishlistRepository wishlistRepository;
+
+    @Autowired
     UserRepository userRepository;
 
     @GetMapping(path="/allLists")
@@ -27,10 +29,7 @@ public class WishlistApi {
         // find the user by their name, add wishlist to their list
         User user = userRepository.findUserByUsername(username).get(0);
         user.getWishlist().add(wishList);
+        userRepository.save(user);
         return "saved";
     }
-
-
-
-
 }

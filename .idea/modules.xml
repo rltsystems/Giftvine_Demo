@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Cst438Project2.iml" filepath="$PROJECT_DIR$/Cst438Project2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/front-end-assets/.idea/Group5_CST438_Project02.iml" filepath="$PROJECT_DIR$/front-end-assets/.idea/Group5_CST438_Project02.iml" />
+    </modules>
+  </component>
+</project>
