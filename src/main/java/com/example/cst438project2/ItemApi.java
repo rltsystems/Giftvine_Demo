@@ -26,9 +26,10 @@ public class ItemApi {
         return itemRepository.findAll();
     }
 
-    @GetMapping(path="/items")
+    //when return type is Optional, you can use isPresent() to make sure it exists
+    @GetMapping(path="/item")
     public Optional<Item> findItemById(@RequestParam Integer id){
-        return itemRepository.findById(id);
+            return itemRepository.findById(id);
     }
 
     // for debugging, adds only one item to repository
@@ -40,14 +41,36 @@ public class ItemApi {
         return "saved";
     }
 
-    // TODO: finish this. determine if default values are a good idea?
-    @PostMapping(path="/editItem")
-    public String editItem(@RequestParam int itemId, @RequestParam String itemName, @RequestParam String itemUrl,
-                           @RequestParam int priority, @RequestParam String description){
 
-        //Item item = new Item(itemName, itemUrl, priority, description);
-        //itemRepository.save(item);
-        return "saved";
+    @PatchMapping(path="/updateItem")
+    public String editItem(@RequestParam int itemId, @RequestParam(required = false) String itemName,
+                           @RequestParam(required = false) String itemURL,
+                           @RequestParam(required = false) String itemPriority,
+                           @RequestParam(required = false) String itemDescription){
+
+        if(itemName == null && itemURL == null && itemPriority == null && itemDescription == null){
+            return "no parameters for change given";
+        }
+
+        if(itemRepository.existsById(itemId)){
+            Item item = itemRepository.findById(itemId).get();
+            if(itemName != null){
+                item.setItemName(itemName);
+            }
+            if(itemURL != null){
+                item.setItemUrl(itemURL);
+            }
+            if(itemPriority != null){
+                item.setPriority(itemPriority);
+            }
+            if(itemDescription != null){
+                item.setDescription(itemDescription);
+            }
+            itemRepository.save(item);
+            return "saved";
+        }
+
+        return "update error";
     }
 
     @DeleteMapping(path="/deleteItem")
