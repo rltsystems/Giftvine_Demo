@@ -19,11 +19,21 @@ public class UserApi {
     @Autowired
     private UserRepository userRepository;
 
+    /**
+     * Retrieves all currently stored users
+     * @return all User objects in userRepository
+     */
     @GetMapping(path="/allUsers")
     public Iterable<User> getAllUsers(){
         return userRepository.findAll();
     }
 
+    /**
+     * Creates a new user using a username and password, and stores it in the repository
+     * @param username the string chosen as the front end identifier for the user
+     * @param password the string password for the user account
+     * @return
+     */
     @PostMapping(path="/addUser")
     public String addUser(@RequestParam String username, @RequestParam String password,
                           @RequestParam (required = false) Boolean isAdmin) {
@@ -35,11 +45,21 @@ public class UserApi {
         return "saved";
     }
 
+    /**
+     * Searches repository for an existing user with the indicated username
+     * @param username the string used to search the database for a User
+     * @return the matching User object, if it exists
+     */
     @GetMapping(path="/findUserByUsername")
     public List<User> findUserByUsername(@RequestParam (defaultValue = "test") String username){
         return userRepository.findUserByUsername(username);
     }
 
+    /**
+     * Deletes a user from the repository using their username
+     * @param username the string used to search the database for a User
+     * @return a success message
+     */
     @DeleteMapping(path="/deleteUser")
     public String deleteUser(@RequestParam String username){
         User user = new User(username, "");
@@ -49,6 +69,12 @@ public class UserApi {
         return "Deleted";
     }
 
+    /**
+     * Logs User into their account
+     * @param username the string username chosen by the user
+     * @param password the string password that authenticates the user
+     * @return a success or error message
+     */
     @PostMapping(path="/login")
     public String login(@RequestParam String username, @RequestParam String password){
 
@@ -69,6 +95,14 @@ public class UserApi {
         }
     }
 
+    /**
+     * updates User information
+     * @param originalUsername the string of the initial username for searching the database
+     * @param newUsername the string new username to change out
+     * @param password the string password  used to authenticate
+     * @param isAdmin boolean indicator of admin status
+     * @return a success message
+     */
     @PatchMapping(path="/updateUser")
     public String updateUser(@RequestParam String originalUsername,
                              @RequestParam (required = false) String newUsername,

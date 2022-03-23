@@ -7,7 +7,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /**
- * A class to represent an item on the wishlist. It is stored in the ItemRespository.
+ * A class to represent an item created by a user for a wishlist. It is stored in the ItemRespository.
  */
 
 @Entity
