@@ -28,6 +28,17 @@ public class WishlistApi {
     }
 
     /**
+     * Retrieves all the wishlists of a specified user
+     * @param username the string name of the user whos lists will be retrieved
+     * @return the wishlists of the matching user, if they exist
+     */
+    @GetMapping(path="/userLists")
+    public Iterable<Wishlist> getUserLists(@RequestParam String username){
+        User user = userRepository.findUserByUsername(username).get(0);
+        return user.getWishlist();
+    }
+
+    /**
      * Retrieves a specific Wishlist using its id number
      * @param listId the integer id randomly generated for each Wishlist when it is stored in the repository
      * @return the wishlist with a matching id number, if it exists
