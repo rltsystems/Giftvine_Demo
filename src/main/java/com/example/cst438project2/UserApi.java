@@ -27,6 +27,9 @@ public class UserApi {
     @PostMapping(path="/addUser")
     public String addUser(@RequestParam String username, @RequestParam String password,
                           @RequestParam (required = false) Boolean isAdmin) {
+        if(!userRepository.findUserByUsername(username).isEmpty()){
+            return "User Already Exists";
+        }
         User user = new User(username, password);
         if(isAdmin != null){
             user.setAdmin(isAdmin);
