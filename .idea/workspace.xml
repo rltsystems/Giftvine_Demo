@@ -22,9 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="- added javadoc to ItemApi.java&#10;- changed parameters of editItem() to match other functions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/WishlistApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/WishlistApi.java" afterDir="false" />
+    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="- added javadoc to WishlistApi.java">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/UserApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648012086731</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="- added javadoc to WishlistApi.java">
+      <created>1648018833818</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648018833818</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +174,7 @@
     <MESSAGE value="Updated landing page example, to reflect giftvine app" />
     <MESSAGE value="Wishlist api call to add a list to a user wasnt saving to repository so i fixed that" />
     <MESSAGE value="- added javadoc to ItemApi.java&#10;- changed parameters of editItem() to match other functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added javadoc to ItemApi.java&#10;- changed parameters of editItem() to match other functions" />
+    <MESSAGE value="- added javadoc to WishlistApi.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added javadoc to WishlistApi.java" />
   </component>
 </project>
