@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="- added userLists call to WishlistApi to retrieve all lists from a specified user">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/ItemApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/ItemApi.java" afterDir="false" />
-    </list>
+    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="- added listItems call to ItemApi to retrieve all items from a specified list by id" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648019848585</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="- added listItems call to ItemApi to retrieve all items from a specified list by id">
+      <created>1648020486239</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648020486239</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +196,7 @@
     <MESSAGE value="- added javadoc to WishlistApi.java" />
     <MESSAGE value="- added javadoc to UserApi.java" />
     <MESSAGE value="- added userLists call to WishlistApi to retrieve all lists from a specified user" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added userLists call to WishlistApi to retrieve all lists from a specified user" />
+    <MESSAGE value="- added listItems call to ItemApi to retrieve all items from a specified list by id" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added listItems call to ItemApi to retrieve all items from a specified list by id" />
   </component>
 </project>
