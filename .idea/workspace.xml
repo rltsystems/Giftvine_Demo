@@ -22,9 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="added updateUser call">
+    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="implemented working POST api call to register user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/core/registerJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/core/registerJs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,6 +128,8 @@
       <workItem from="1646956676175" duration="1870000" />
       <workItem from="1647386929398" duration="1137000" />
       <workItem from="1647399992423" duration="1625000" />
+      <workItem from="1648029543429" duration="7000" />
+      <workItem from="1648068275927" duration="837000" />
     </task>
     <task id="LOCAL-00001" summary="Added Argon Template files and assets (css and js etc.)">
       <created>1646351654021</created>
@@ -158,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648023478542</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="implemented working POST api call to register user">
+      <created>1648029377748</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648029377748</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +188,7 @@
     <MESSAGE value="Updated landing page example, to reflect giftvine app" />
     <MESSAGE value="Wishlist api call to add a list to a user wasnt saving to repository so i fixed that" />
     <MESSAGE value="started work on the JS for the registration page" />
-    <option name="LAST_COMMIT_MESSAGE" value="started work on the JS for the registration page" />
+    <MESSAGE value="implemented working POST api call to register user" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented working POST api call to register user" />
   </component>
 </project>

@@ -1,5 +1,9 @@
 document.querySelector("#createAccBtn").addEventListener("click",createAccount);
 
+if(!("loggedInUser" in localStorage)){
+    localStorage.setItem("loggedInUser", null);
+}
+
 async function createAccount(){
     let username = document.querySelector("#username").value;
     let password = document.querySelector("#password").value;
@@ -20,6 +24,10 @@ async function createAccount(){
             .then(response => response.text())
             .then(result => console.log(result))
             .catch(error => console.log('error', error));
+
+        localStorage.setItem("loggedInUser", username);
+        console.log(localStorage.getItem("loggedInUser"));
+        document.location.href = `https://intense-springs-54966.herokuapp.com/profile.html`
     }
 }
 
