@@ -36,7 +36,7 @@ Coded by www.creative-tim.com
 </head>
 
 
-<body class="profile-page">
+<body class="account-page">
   <!-- Navbar -->
   <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light py-2">
     <div class="container">
@@ -100,34 +100,55 @@ Coded by www.creative-tim.com
     </div>
     <div class="container pt-lg-7">
       <div class="row justify-content-center">
-          <!-- If the user doesn't have any wish lists display nothing except for create a wishlist button -->
-          <div class="row row-grid align-items-center mb-5">
-          <div class="col-lg-5">
-            <div class="card-body px-lg-5 py-lg-5">
-                <h3>
-                    List #1 (Placeholder)
-                </h3>
-            </div>
-          </div>
-          <div class="col-lg-5">
-              <div class="text-center">
-                <h3>
-                    List #2 (Placeholder)
-                  </h3>
-              </div> 
-          </div>
         <div class="col-lg-5">
-            <div class="card-body px-lg-5 py-lg-5">       
-                <div class="text-center">
-                                <button type="button" id="createList" class="btn btn-warning btn-icon mt-3 mb-sm-0">Create a Wishlist</button>
-                            </div>
-                        </div>
+            <div class="card-body px-lg-5 py-lg-5">
+              <div class="text-center text-muted mb-4">
+                  <h4 class ="text-center">My Account</h4>
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Username
+                      </label>
                     </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">Password</label>
+                    </div>
+              </div>
+              <form role="form">
+                <div class="form-group mb-3">
+                  <div class="input-group input-group-alternative">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                    </div>
+                    <input class="form-control" placeholder="Username/Password" type="email" id="username">
+                  </div>
                 </div>
+                <div class="form-group focused">
+                  <div class="input-group input-group-alternative">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
+                    </div>
+                    <input class="form-control" placeholder="Confirm Username/Password" type="password" id="password">
+                  </div>
+                </div>
+                <div class="custom-control custom-control-alternative custom-checkbox">
+                  <input class="custom-control-input" id=" customCheckLogin" type="checkbox">
+                  <!--<label class="custom-control-label" for=" customCheckLogin"><span>Remember me</span></label> -->
+                </div>
+                <div class="text-center">
+                  <button type="button" class="btn btn-warning my-4">Submit</button>
+                </div>
+                  <div class="text-center">
+                  <button type="button" class="btn btn-danger my-4">Delete My Account</button>
+                </div>
+              </form>
             </div>
-        </div>
-      </div>  
+          </div>
+        </div> 
+      </div>
 </div>
+    </div>
 <footer class="footer">
     <div class="container">
       <div class="row row-grid align-items-center mb-5">

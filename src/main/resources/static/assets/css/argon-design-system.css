@@ -409,7 +409,7 @@ h6,
   font-family: inherit;
   font-weight: 400;
   line-height: 1.5;
-  color: #32325d;
+  color: white;
 }
 
 h1,
@@ -480,6 +480,7 @@ hr {
 
 small,
 .small {
+  color: white;
   font-size: 80%;
   font-weight: 400;
 }
@@ -2238,6 +2239,7 @@ textarea.form-control {
 
 .form-check-label {
   margin-bottom: 0;
+  color: white;
 }
 
 .form-check-inline {
