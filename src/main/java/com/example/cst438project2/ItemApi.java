@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Optional;
 
 /**
@@ -80,6 +81,17 @@ public class ItemApi {
         wishList.getItems().add(item);
         wishlistRepository.save(wishList);
         return "saved";
+    }
+
+    /**
+     * Retrieves all the items of a specific list, indicated by the id number.
+     * @param listId the integer id randomly generated for each wishlist when they're stored.
+     * @return the items of the matching list, if they are there.
+     */
+    @GetMapping(path="/listItems")
+    public List<Item> getListItems(@RequestParam int listId){
+        Wishlist list = wishlistRepository.findById(listId).get();
+        return list.getItems();
     }
 
     /**

@@ -22,8 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="- added javadoc to UserApi.java">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/WishlistApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/WishlistApi.java" afterDir="false" />
+    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="- added userLists call to WishlistApi to retrieve all lists from a specified user">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/ItemApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/ItemApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648019349136</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="- added userLists call to WishlistApi to retrieve all lists from a specified user">
+      <created>1648019848585</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648019848585</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +190,7 @@
     <MESSAGE value="- added javadoc to ItemApi.java&#10;- changed parameters of editItem() to match other functions" />
     <MESSAGE value="- added javadoc to WishlistApi.java" />
     <MESSAGE value="- added javadoc to UserApi.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added javadoc to UserApi.java" />
+    <MESSAGE value="- added userLists call to WishlistApi to retrieve all lists from a specified user" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added userLists call to WishlistApi to retrieve all lists from a specified user" />
   </component>
 </project>
