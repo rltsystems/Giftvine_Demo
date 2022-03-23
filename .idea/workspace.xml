@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="- added listItems call to ItemApi to retrieve all items from a specified list by id" />
+    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="- attempting to fix weird workspace.xml errors" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648020486239</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="- attempting to fix weird workspace.xml errors">
+      <created>1648021050786</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648021050786</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +204,7 @@
     <MESSAGE value="- added javadoc to UserApi.java" />
     <MESSAGE value="- added userLists call to WishlistApi to retrieve all lists from a specified user" />
     <MESSAGE value="- added listItems call to ItemApi to retrieve all items from a specified list by id" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added listItems call to ItemApi to retrieve all items from a specified list by id" />
+    <MESSAGE value="- attempting to fix weird workspace.xml errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="- attempting to fix weird workspace.xml errors" />
   </component>
 </project>
