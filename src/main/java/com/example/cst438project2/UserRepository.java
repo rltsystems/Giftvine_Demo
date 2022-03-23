@@ -14,4 +14,8 @@ public interface UserRepository extends CrudRepository<User, Integer> {
     List<User> findUserByUsername(
             @Param("username") String username
     );
+
+    List<User> findDistinctByUsername(
+            @Param("username") String username
+    );
 }

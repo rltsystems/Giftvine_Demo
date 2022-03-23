@@ -10,7 +10,10 @@ async function createAccount(){
     let confirmPass = document.querySelector("#confirmPass").value;
 
     if(password !== confirmPass){
-        console.log("PASSWORDS DONT MATCH");
+        alert("Passwords don't match");
+    }
+    else if(password.length < 6){
+        alert("Password must be at least 6 characters");
     }
     else{
         let url = `https://intense-springs-54966.herokuapp.com/api/addUser?username=${username}&password=${password}`;
@@ -19,21 +22,23 @@ async function createAccount(){
             method: 'POST',
             redirect: 'follow'
         };
-
+        let res;
         await fetch(url, requestOptions)
             .then(response => response.text())
-            .then(result => console.log(result))
+            .then(result => {
+                res = result;
+            })
+            // .then(response => console.log(response))
             .catch(error => console.log('error', error));
 
-        localStorage.setItem("loggedInUser", username);
-        console.log(localStorage.getItem("loggedInUser"));
-        document.location.href = `https://intense-springs-54966.herokuapp.com/profile.html`
+        console.log("RESPONSE:" + res);
+        if(res === "saved"){
+            localStorage.setItem("loggedInUser", username);
+            console.log(localStorage.getItem("loggedInUser"));
+            document.location.href = `https://intense-springs-54966.herokuapp.com/profile.html`
+        }
+        else{
+            alert(res);
+        }
     }
-}
-
-async function fetchData(url){
-    let response = await (url);
-    let data = await response.json();
-    console.log(data);
-    return data;
 }
