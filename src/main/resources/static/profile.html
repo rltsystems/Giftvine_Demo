@@ -101,61 +101,62 @@ Coded by www.creative-tim.com
     <div class="container pt-lg-7">
       <div class="row justify-content-center">
           <!-- If the user doesn't have any wish lists display nothing except for create a wishlist button -->
-          <div class="row row-grid align-items-center mb-5">
-          <div class="col-lg-5">
-            <div class="card-body px-lg-5 py-lg-5">
-                <h3>
-                    List #1 (Placeholder)
-                </h3>
-            </div>
-          </div>
-          <div class="col-lg-5">
-              <div class="text-center">
-                <h3>
-                    List #2 (Placeholder)
-                  </h3>
-              </div> 
-          </div>
-        <div class="col-lg-5">
-            <div class="card-body px-lg-5 py-lg-5">       
-                <div class="text-center">
-                                <button type="button" id="createList" class="btn btn-warning btn-icon mt-3 mb-sm-0">Create a Wishlist</button>
+          <div class="row row-grid align-items-center mb-5" id="listspace">
+              <!-- THIS IS WHERE THE DYNAMICALLY GENERATED BUTTONS WILL GO!
+              <div class="col-lg-5">
+                <div class="card-body px-lg-5 py-lg-5">
+                    <button class="btn btn-primary btn-lg">Large</button>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                  <div class="text-center">
+                    <h3>
+                        List #2 (Placeholder)
+                      </h3>
+                  </div>
+              </div>
+              -->
+            <div class="col-lg-5">
+                <div class="card-body px-lg-5 py-lg-5">
+                    <div class="text-center">
+                                    <input type="text" id="newWishlistName">
+                                    <button type="button" id="createList" class="btn btn-warning btn-icon mt-3 mb-sm-0">Create a Wishlist</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-      </div>  
-</div>
-<footer class="footer">
-    <div class="container">
-      <div class="row row-grid align-items-center mb-5">
-        <div class="col-lg-6">
-          <h3 class="text-primary font-weight-light mb-2"></h3>
-          <h4 class="mb-0 font-weight-light"></h4>
-        </div>
-      </div>
-      <hr>
-      <div class="row align-items-center justify-content-md-between">
-        <div class="col-md-6">
-          <div class="copyright">
-            <a>Group 5 CST 438 CSUMB Spring 2022</a>.
+          </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+          <div class="row row-grid align-items-center mb-5">
+            <div class="col-lg-6">
+              <h3 class="text-primary font-weight-light mb-2"></h3>
+              <h4 class="mb-0 font-weight-light"></h4>
+            </div>
+          </div>
+          <hr>
+          <div class="row align-items-center justify-content-md-between">
+            <div class="col-md-6">
+              <div class="copyright">
+                <a>Group 5 CST 438 CSUMB Spring 2022</a>.
+              </div>
+            </div>
+            <div class="col-md-6">
+              <ul class="nav nav-footer justify-content-end">
+                <li class="nav-item">
+                </li>
+                <li class="nav-item">
+                  <a href="././index.html" class="nav-link" target="_blank">Home</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <ul class="nav nav-footer justify-content-end">
-            <li class="nav-item">
-            </li>
-            <li class="nav-item">
-              <a href="././index.html" class="nav-link" target="_blank">Home</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!--   Core JS Files   -->
+      </footer>
+      <!--   Core JS Files   -->
   <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
   <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
   <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
@@ -172,6 +173,7 @@ Coded by www.creative-tim.com
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
   <script src="./assets/js/argon-design-system.min.js?v=1.2.2" type="text/javascript"></script>
   <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
+  <script src="./assets/js/core/profile.js"></script> <!-- this is like, our file for js -->
   <script>
     window.TrackJS &&
       TrackJS.install({
