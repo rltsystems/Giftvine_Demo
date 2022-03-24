@@ -15,7 +15,7 @@ async function populateLists(){
         document.querySelector("#listspace").innerHTML +=
             `<div class="col-lg-5">
                 <div class="card-body px-lg-5 py-lg-5">
-                    <a href="./list-page.html" class="btn btn-primary btn-lg">${res[i].listName}</a>
+                    <a href="./list-page.html" class="btn btn-primary btn-lg" onclick>${res[i].listName}</a>
                 </div>
             </div>`;
     }
