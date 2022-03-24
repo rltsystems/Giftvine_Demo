@@ -55,17 +55,17 @@ public class UserApi {
     @PostMapping(path="/login")
     public String login(@RequestParam String username, @RequestParam String password){
 
-        if(userRepository.findUserByUsername(username).isEmpty()){
+        if(userRepository.findDistinctByUsername(username).isEmpty()){
             return "userNull";
         }
         else{
-            User user = userRepository.findUserByUsername(username).get(0);
+            User user = userRepository.findDistinctByUsername(username).get(0);
             if(!Objects.equals(user.getPassword(), password)){ // same as user.getPass != password
                 return "wrongPass";
             }
-            else if(user.isAdmin()){
-                return "adminLogin";
-            }
+//            else if(user.isAdmin()){
+//                return "adminLogin";
+//            }
             else{
                 return "loginSuccess";
             }

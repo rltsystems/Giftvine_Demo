@@ -22,9 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="added findDistinctByUsername to fix similar usernames being considered equal. also added simple password requirement. register page should be good to go">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/core/loginJs.js" afterDir="false" />
+    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="added fetch POST for register">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/UserApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/core/loginJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/core/loginJs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +206,6 @@
     <MESSAGE value="Wishlist api call to add a list to a user wasnt saving to repository so i fixed that" />
     <MESSAGE value="started work on the JS for the registration page" />
     <MESSAGE value="implemented working POST api call to register user" />
-    <MESSAGE value="added findDistinctByUsername to fix similar usernames being considered equal. also added simple password requirement. register page should be good to go" />
-    <option name="LAST_COMMIT_MESSAGE" value="added findDistinctByUsername to fix similar usernames being considered equal. also added simple password requirement. register page should be good to go" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented working POST api call to register user" />
   </component>
 </project>
