@@ -1,4 +1,5 @@
 document.querySelector("#deleteAccBtn").addEventListener("click",deleteAccount);
+document.querySelector("#changeAccBtn").addEventListener("click",changeAccount);
 
 async function changeAccount() {
     let checkbox = document.querySelector("#checkbox").value;
