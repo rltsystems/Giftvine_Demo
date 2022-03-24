@@ -15,7 +15,7 @@ async function populateLists(){
         document.querySelector("#listspace").innerHTML +=
             `<div class="col-lg-5">
                 <div class="card-body px-lg-5 py-lg-5">
-                    <a href="./list-page.html" class="btn btn-primary btn-lg">${res[i].listName}</a>
+                    <button class="btn btn-primary btn-lg" onclick="listTeleporter(i, url)">${res[i].listName}</button>
                 </div>
             </div>`;
     }
@@ -46,6 +46,17 @@ async function createList(){
 
     // window.location.reload();
 
+}
+
+async function listTeleporter(listNum, url){
+    // get wishlists again
+    let res = await fetchData(url);
+    // grab the Id of the current wishlist
+    let listId = res[listNum].wishlistId;
+    // store it
+    localStorage.setItem("currentList", listId);
+    // navigate to list page
+    window.location.href = "./list-page.html"
 }
 
 async function fetchData(url){
