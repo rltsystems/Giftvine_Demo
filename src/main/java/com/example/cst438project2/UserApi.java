@@ -66,7 +66,7 @@ public class UserApi {
     @DeleteMapping(path="/deleteUser")
     public String deleteUser(@RequestParam String username){
         User user = new User(username, "");
-        user = findUserByUsername(username).get(0); //maybe add an ispresent check
+        user = userRepository.findDistinctByUsername(username).get(0); //maybe add an ispresent check
 
         userRepository.delete(user);
         return "Deleted";
@@ -111,7 +111,7 @@ public class UserApi {
                              @RequestParam (required = false) String newUsername,
                              @RequestParam (required = false) String password,
                              @RequestParam (required = false) Boolean isAdmin){
-        User user = userRepository.findUserByUsername(originalUsername).get(0);
+        User user = userRepository.findDistinctByUsername(originalUsername).get(0);
         if(newUsername != null){
             user.setUsername(newUsername);
         }

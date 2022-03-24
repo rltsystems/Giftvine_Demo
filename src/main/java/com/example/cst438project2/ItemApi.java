@@ -50,7 +50,7 @@ public class ItemApi {
      */
     @PostMapping(path="/addItem")
     public String addItem(@RequestParam String itemName, @RequestParam String itemUrl,
-                          @RequestParam String priority, @RequestParam String description){
+                          @RequestParam int priority, @RequestParam String description){
         Item item = new Item(itemName, itemUrl, priority, description);
         itemRepository.save(item);
         return "saved";
@@ -67,20 +67,21 @@ public class ItemApi {
      */
     @PutMapping(path="/addToList")
     public String addItemToList(@RequestParam int listId, @RequestParam String itemName, @RequestParam String itemUrl,
-                                @RequestParam String priority, @RequestParam String description){
+                                @RequestParam int priority, @RequestParam String description){
         Item item = new Item(itemName, itemUrl, priority, description);
         itemRepository.save(item);
         Wishlist wishList = new Wishlist();
         // retrieve wishlist by id, check to make sure list exists first
-        if(!wishlistRepository.findById(listId).isPresent()) {
+        if(wishlistRepository.findById(listId).isEmpty()) {
             return "wishlist does not exist";
         }else{
             wishList = wishlistRepository.findById(listId).get();
+            // add item to wishlist
+            wishList.getItems().add(item);
+            wishlistRepository.save(wishList);
+            return "saved";
         }
-        // add item to wishlist
-        wishList.getItems().add(item);
-        wishlistRepository.save(wishList);
-        return "saved";
+
     }
 
     /**
@@ -106,10 +107,10 @@ public class ItemApi {
     @PatchMapping(path="/updateItem")
     public String editItem(@RequestParam int itemId, @RequestParam(required = false) String itemName,
                            @RequestParam(required = false) String itemUrl,
-                           @RequestParam(required = false) String priority,
+                           @RequestParam(required = false) int priority,
                            @RequestParam(required = false) String description){
 
-        if(itemName == null && itemUrl == null && priority == null && description == null){
+        if(itemName == null && itemUrl == null && description == null){ //priority == null
             return "no parameters for change given";
         }
 
@@ -121,9 +122,9 @@ public class ItemApi {
             if(itemUrl != null){
                 item.setItemUrl(itemUrl);
             }
-            if(priority != null){
+//            if(priority != null){
                 item.setPriority(priority);
-            }
+//            }
             if(description != null){
                 item.setDescription(description);
             }
