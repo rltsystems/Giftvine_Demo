@@ -6,8 +6,8 @@ async function changeAccount() {
     //Once we get a checkbox value that is either "username" or "password"
     //We will then use that to update corresponding username or password via API call
 
-    let newInfo = document.querySelector('#input1').value; //this is the first input box that can be either username or password
-    let secondBox = document.querySelector('#input2').value;
+    let newInfo = document.querySelector("#input1").value; //this is the first input box that can be either username or password
+    let secondBox = document.querySelector("#input2").value;
     //section for  the username/password change
     var requestOptions = {
         method: 'PATCH',
@@ -18,24 +18,34 @@ async function changeAccount() {
     if (newInfo !== secondBox) {
         alert("Passwords or Usernames do not match.");
     } else if (newInfo == secondBox) {
-        if (document.querySelector('#usercheckbox').value == 'username') {
+        if (document.querySelector('#usercheckbox').value == "username") {
             //section that updates username
             let url = `https://intense-springs-54966.herokuapp.com/api/updateUser?originalUsername=${username}&newUsername=${newInfo}`;
+            let res;
             await fetch(url, requestOptions)
                 .then(response => response.text())
-                .then(result => console.log(result), alert("Success Username Changed!"))
+                .then(result => {
+                    res = result;
+                    console.log(result)
+                })
                 .catch(error => console.log('error', error));
+            alert("Success Username Changed!" + res);
         }
-        if (document.querySelector('#passcheckbox').value == 'password') {
+        else if (document.querySelector('#passcheckbox').value == "password") {
             if (newInfo.length < 6) {
                 alert("Password must be at least 6 characters");
             } else {
                 //Section that updates password
                 let url1 = `https://intense-springs-54966.herokuapp.com/api/updateUser?originalUsername=${username}&password=${newInfo}`;
+                let res;
                 await fetch(url1, requestOptions)
                     .then(response => response.text())
-                    .then(result => console.log(result), alert("Success Password Changed!"))
+                    .then(result => {
+                        res = result;
+                        console.log(result);
+                    })
                     .catch(error => console.log('error', error));
+                alert("Success Password Changed!" + res);
             }
         }
     }
