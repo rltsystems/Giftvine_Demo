@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="" />
+    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="fixed the bug relating to POST/PUT of calls including an Item object.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/core/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/core/profile.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,17 +34,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="ApiCalls" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,7 +60,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Users\ryanl\.m2\wrapper\dists\apache-maven-3.8.4-bin\52ccbt68d252mdldqsfsn03jlf\apache-maven-3.8.4" />
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -70,18 +82,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Group5_CST438_Project02\src\main\resources\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ryanl\IdeaProjects\Group5_CST438_Project02" />
     </key>
@@ -112,6 +121,7 @@
         <item itemvalue="HTTP Request.generated-requests | #2" />
         <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="HTTP Request.All in generated-requests" />
+        <item itemvalue="HTTP Request.generated-requests | #3" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +134,10 @@
       <option name="presentableId" value="Default" />
       <updated>1646351537255</updated>
       <workItem from="1646956676175" duration="1870000" />
-      <workItem from="1647386929398" duration="702000" />
+      <workItem from="1647386929398" duration="1137000" />
+      <workItem from="1647399992423" duration="1625000" />
+      <workItem from="1648029543429" duration="7000" />
+      <workItem from="1648068275927" duration="837000" />
     </task>
     <task id="LOCAL-00001" summary="Added Argon Template files and assets (css and js etc.)">
       <created>1646351654021</created>
@@ -140,42 +153,49 @@
       <option name="project" value="LOCAL" />
       <updated>1646353448542</updated>
     </task>
-    <task id="LOCAL-00003" summary="--Updated Responsive Menu across all pages (index, login, profile, register, account)&#10;--Created My Account Page as well&#10;--Updated links to provide fast, direct navigation to different pages&#10;Fixed broken div tags and directories for the javascript files now point to valid locations">
-      <created>1647574611729</created>
+    <task id="LOCAL-00003" summary="Wishlist api call to add a list to a user wasnt saving to repository so i fixed that">
+      <created>1647387855401</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1647574611729</updated>
+      <updated>1647387855401</updated>
     </task>
-    <task id="LOCAL-00004" summary="--Updated Responsive Menu across all pages (index, login, profile, register, account)&#10;--Created My Account Page as well&#10;--Updated links to provide fast, direct navigation to different pages&#10;Fixed broken div tags and directories for the javascript files now point to valid locations&#10;&#10;________________________________________________________&#10;EDIT: 8:37pm 3/17/2022&#10;Fixed spacing issues in all HTML files">
-      <created>1647574658039</created>
+    <task id="LOCAL-00004" summary="started work on the JS for the registration page">
+      <created>1648023478542</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1647574658039</updated>
+      <updated>1648023478542</updated>
     </task>
-    <task id="LOCAL-00005" summary="--Updated Font Colors for argon-design-system.css for better visibility. Changed H4 and .small from grey to white.">
-      <created>1647575339572</created>
+    <task id="LOCAL-00005" summary="implemented working POST api call to register user">
+      <created>1648029377748</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1647575339572</updated>
+      <updated>1648029377748</updated>
     </task>
-    <task id="LOCAL-00006" summary="Updated username attribute to 'text' for form-control">
-      <created>1647575456176</created>
+    <task id="LOCAL-00006" summary="added findDistinctByUsername to fix similar usernames being considered equal. also added simple password requirement. register page should be good to go">
+      <created>1648076401809</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1647575456176</updated>
+      <updated>1648076401809</updated>
     </task>
-    <task id="LOCAL-00007" summary="created loginController and edited html">
-      <created>1648084365816</created>
+    <task id="LOCAL-00007" summary="set up login JS as well as fixed issue with login api call not looking for exact username">
+      <created>1648088603151</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1648084365816</updated>
+      <updated>1648088603151</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fixed the bug relating to POST/PUT of calls including an Item object.">
+      <created>1648114398387</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648114398387</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,13 +215,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Argon Template files and assets (css and js etc.)" />
     <MESSAGE value="Updated landing page example, to reflect giftvine app" />
-    <MESSAGE value="--Updated Responsive Menu across all pages (index, login, profile, register)&#10;--Updated links to provide fast, direct navigation to different pages&#10;Fixed broken div tags and directories for the javascript files now point to valid locations" />
-    <MESSAGE value="--Updated Responsive Menu across all pages (index, login, profile, register, account)&#10;--Created My Account Page as well&#10;--Updated links to provide fast, direct navigation to different pages&#10;Fixed broken div tags and directories for the javascript files now point to valid locations" />
-    <MESSAGE value="--Updated Responsive Menu across all pages (index, login, profile, register, account)&#10;--Created My Account Page as well&#10;--Updated links to provide fast, direct navigation to different pages&#10;Fixed broken div tags and directories for the javascript files now point to valid locations&#10;&#10;________________________________________________________&#10;EDIT: 8:37pm 3/17/2022&#10;Fixed spacing issues in all HTML files" />
-    <MESSAGE value="--Updated Font Colors for argon-design-system.css for better visibility. Changed H4 and .small from grey to white." />
-    <MESSAGE value="Updated username attribute to 'text' for form-control" />
-    <MESSAGE value="Created add-item, list-page pages and updated UI/usability&#10;-----add-item-----&#10;Created Boxes for URL/Image/Description and Priority (Low,Med,High) as well as an ADD button and Back to my list button (Black)&#10;&#10;-----list-page-----&#10;Filler list layout (Item #1-4)&#10;Add Gift Button &#10;Remove Gifts Button (Red)&#10;Back to my list button (Black)" />
-    <MESSAGE value="created loginController and edited html" />
-    <option name="LAST_COMMIT_MESSAGE" value="created loginController and edited html" />
+    <MESSAGE value="Wishlist api call to add a list to a user wasnt saving to repository so i fixed that" />
+    <MESSAGE value="started work on the JS for the registration page" />
+    <MESSAGE value="implemented working POST api call to register user" />
+    <MESSAGE value="set up login JS as well as fixed issue with login api call not looking for exact username" />
+    <MESSAGE value="fixed the bug relating to POST/PUT of calls including an Item object." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed the bug relating to POST/PUT of calls including an Item object." />
   </component>
 </project>
