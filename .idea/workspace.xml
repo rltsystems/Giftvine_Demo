@@ -22,12 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
-    </list>
+    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647575456176</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="created loginController and edited html">
+      <created>1648084365816</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648084365816</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,16 +201,7 @@
     <MESSAGE value="--Updated Font Colors for argon-design-system.css for better visibility. Changed H4 and .small from grey to white." />
     <MESSAGE value="Updated username attribute to 'text' for form-control" />
     <MESSAGE value="Created add-item, list-page pages and updated UI/usability&#10;-----add-item-----&#10;Created Boxes for URL/Image/Description and Priority (Low,Med,High) as well as an ADD button and Back to my list button (Black)&#10;&#10;-----list-page-----&#10;Filler list layout (Item #1-4)&#10;Add Gift Button &#10;Remove Gifts Button (Red)&#10;Back to my list button (Black)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created add-item, list-page pages and updated UI/usability&#10;-----add-item-----&#10;Created Boxes for URL/Image/Description and Priority (Low,Med,High) as well as an ADD button and Back to my list button (Black)&#10;&#10;-----list-page-----&#10;Filler list layout (Item #1-4)&#10;Add Gift Button &#10;Remove Gifts Button (Red)&#10;Back to my list button (Black)" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="525" y="87" key="SettingsEditor" timestamp="1647556954491">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="525" y="87" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1647556954491" />
-    <state x="650" y="301" key="Vcs.Push.Dialog.v2" timestamp="1647575461752">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="650" y="301" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1647575461752" />
+    <MESSAGE value="created loginController and edited html" />
+    <option name="LAST_COMMIT_MESSAGE" value="created loginController and edited html" />
   </component>
 </project>
