@@ -22,11 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="added fetch POST for register">
+    <list default="true" id="844b271b-3522-4d56-9688-fd30e441ec8b" name="Default Changelist" comment="set up login JS as well as fixed issue with login api call not looking for exact username">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cst438project2/UserApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/core/loginJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/core/loginJs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648076401809</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="set up login JS as well as fixed issue with login api call not looking for exact username">
+      <created>1648088603151</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648088603151</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +211,7 @@
     <MESSAGE value="Wishlist api call to add a list to a user wasnt saving to repository so i fixed that" />
     <MESSAGE value="started work on the JS for the registration page" />
     <MESSAGE value="implemented working POST api call to register user" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented working POST api call to register user" />
+    <MESSAGE value="set up login JS as well as fixed issue with login api call not looking for exact username" />
+    <option name="LAST_COMMIT_MESSAGE" value="set up login JS as well as fixed issue with login api call not looking for exact username" />
   </component>
 </project>

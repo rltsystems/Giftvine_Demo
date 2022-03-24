@@ -1,5 +1,13 @@
 document.querySelector("#signInBtn").addEventListener("click",login);
 
+if(!("loggedInUser" in localStorage)){
+    localStorage.setItem("loggedInUser", null);
+}
+
+if(localStorage.getItem("loggedInUser") != null){
+    document.location.href = `https://intense-springs-54966.herokuapp.com/profile.html`
+}
+
 async function login(){
     let username = document.querySelector("#username").value;
     let password = document.querySelector("#password").value;
