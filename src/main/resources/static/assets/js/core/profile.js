@@ -44,7 +44,7 @@ async function createList(){
 
     // document.querySelector("#newWishlistName").value = "";
 
-    window.location.reload();
+    // window.location.reload();
 
 }
 
