@@ -4,9 +4,9 @@ if(!("loggedInUser" in localStorage)){
     localStorage.setItem("loggedInUser", null);
 }
 
-if(localStorage.getItem("loggedInUser") != null){
-    document.location.href = `https://intense-springs-54966.herokuapp.com/profile.html`
-}
+// if(localStorage.getItem("loggedInUser") != null){
+//     document.location.href = `https://intense-springs-54966.herokuapp.com/profile.html`
+// }
 
 async function login(){
     let username = document.querySelector("#username").value;

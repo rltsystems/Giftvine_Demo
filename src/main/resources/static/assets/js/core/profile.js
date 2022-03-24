@@ -1,30 +1,17 @@
 document.querySelector("#createList").addEventListener("click",createList);
 
 var username = localStorage.getItem("loggedInUser");
+console.log(localStorage.getItem("loggedInUser"));
 
-populateLists();
+populateLists().then(r => console.log(r));
 
 async function populateLists(){
     let url = `https://intense-springs-54966.herokuapp.com/api/userLists?username=${username}`;
 
-    const requestOptions = {
-        method: 'GET',
-        redirect: 'follow'
-    };
+    let res = await fetchData(url);
+    console.log(res);
 
-    let res;
-    await fetch(url, requestOptions)
-        .then(response => response.text())
-        .then(result => {
-            res = result;
-        })
-        // .then(response => console.log(response))
-        .catch(error => console.log('error', error));
-
-    console.log("USERLISTS RESPONSE:" + res);
-
-    // TODO: find a way to make this dynamic with number of lists?
-    for(let i = 0; i < 5; i++){
+    for(let i = 0; i < res.length; i++){
         document.querySelector("#listspace").innerHTML +=
             `<div class="col-lg-5">
                 <div class="card-body px-lg-5 py-lg-5">
@@ -36,6 +23,7 @@ async function populateLists(){
 }
 
 async function createList(){
+    console.log("HERE");
     let newName = document.querySelector("#newWishlistName").value;
     let url = `https://intense-springs-54966.herokuapp.com/api/addList?username=${username}&listName=${newName}`;
 
@@ -49,12 +37,20 @@ async function createList(){
         .then(response => response.text())
         .then(result => {
             res = result;
+            console.log(res);
         })
-        // .then(response => console.log(response))
+        .then(response => console.log(response))
         .catch(error => console.log('error', error));
 
-    document.querySelector("#newWishlistName").value = "";
+    // document.querySelector("#newWishlistName").value = "";
 
     window.location.reload();
 
+}
+
+async function fetchData(url){
+    let response = await fetch(url);
+    let data = await response.json();
+    console.log(data);
+    return data;
 }
