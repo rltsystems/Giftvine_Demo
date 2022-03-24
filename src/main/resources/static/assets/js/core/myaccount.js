@@ -1,12 +1,11 @@
 document.querySelector("#deleteAccBtn").addEventListener("click",deleteAccount);
 document.querySelector("#changeAccBtn").addEventListener("click",changeAccount);
 
+var username = localStorage.getItem("loggedInUser");
 async function changeAccount() {
-    let checkbox = document.querySelector("#checkbox").value;
     //Once we get a checkbox value that is either "username" or "password"
     //We will then use that to update corresponding username or password via API call
 
-    let currentUsername = localStorage.getItem("loggedInUser");
     let newInfo = document.querySelector('#input1').value; //this is the first input box that can be either username or password
     let secondBox = document.querySelector('#input2').value;
 //section for  the username/password change
@@ -17,34 +16,39 @@ async function changeAccount() {
 
     //validation portion
     if (newInfo !== secondBox) {
-        alert("Passwords or Usernames do not match.")
-    } else if((newInfo.length < 6) && (document.querySelector('#usercheckbox').value == 'password') ){
-        alert("Password must be at least 6 characters");
-    } else {
+        alert("Passwords or Usernames do not match.");
+    } else if (newInfo == secondBox){
         if (document.querySelector('#usercheckbox').value == 'username') {
             //section that updates username
-            fetch("https://intense-springs-54966.herokuapp.com/api/updateUser?originalUsername=${currentUsername}&newUsername=${newInfo}", requestOptions)
+            let url = `https://intense-springs-54966.herokuapp.com/api/updateUser?originalUsername=${username}&newUsername=${newInfo}`;
+            await fetch(url, requestOptions)
                 .then(response => response.text())
                 .then(result => console.log(result))
                 .catch(error => console.log('error', error));
         } else if (document.querySelector('#passcheckbox').value == 'password') {
-            //Section that updates password
-            fetch("https://intense-springs-54966.herokuapp.com/api/updateUser?originalUsername=${originalUsername}&password=${newInfo}", requestOptions)
-                .then(response => response.text())
-                .then(result => console.log(result))
-                .catch(error => console.log('error', error));
+            if(newInfo.length < 6) {
+                alert("Password must be at least 6 characters");
+            }
+            else
+            {
+                //Section that updates password
+                let url1 =`https://intense-springs-54966.herokuapp.com/api/updateUser?originalUsername=${username}&password=${newInfo}`;
+                await fetch(url1, requestOptions)
+                    .then(response => response.text())
+                    .then(result => console.log(result))
+                    .catch(error => console.log('error', error));
+            }
         }
     }
 }
 async function deleteAccount(){
-    let username = document.querySelector("#username").value;
 
     var requestOptions = {
         method: 'DELETE',
         redirect: 'follow'
     };
-
-    fetch("https://intense-springs-54966.herokuapp.com/api/deleteUser?username=${username}", requestOptions)
+    let url = `https://intense-springs-54966.herokuapp.com/api/deleteUser?username=${username}`;
+    await fetch(url, requestOptions)
         .then(response => response.text())
         .then(result => console.log(result))
         .catch(error => console.log('error', error));
