@@ -10,7 +10,8 @@
 This is a web based wishlist application using modern web frameworks. This will require the development of a Representational state transfer (REST) Application Programming Interface (API), a constant integration, constant development (CICD) pipeline, and a persistence (Database) layer. The website will be deployed to a Platform as a Service (PaaS) such as Heroku or Google App Engine.
 
 **This app utilizes Springboot/Docker, Bootstrap, ClearDB (SQL) on Heroku.**
-The web app is live on Heroku if you [Click Here](https://intense-springs-54966.herokuapp.com/)
+- The web app is live on Heroku if you [Click Here](https://intense-springs-54966.herokuapp.com/)
+
 ## Resources 
 - [Spring Boot CRUD operations](https://www.geeksforgeeks.org/spring-boot-crud-operations-using-mysql-database/)
 - [How to interact with REST APIs from JavaScript](https://blog.teclado.com/how-to-interact-with-rest-apis-from-javascript/)
