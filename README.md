@@ -1,4 +1,4 @@
-# Group5_CST438_Project02
+# Giftvine Demo (Software Engineering CST438)
 ## Team Members
 
 1. Ignacio Gramajo
